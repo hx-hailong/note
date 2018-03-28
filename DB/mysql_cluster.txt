@@ -1,0 +1,9 @@
+# author	hx_hailong@163.com
+# date		2018-03-28 23:15:00
+# description	MySQL Cluster测试搭建
+
+mgmd(管理节点)	192.168.56.101
+ndbd+SQL	192.168.56.103
+NDBD+SQL	192.168.56.104
+
+搭建3台1G的虚拟机，其中数据节点ndbd启动后，占用内存已满，mysqld启动导致ndbd挂掉，搭建失败。

@@ -1,0 +1,14 @@
+1、强制类型转换
+   由大数据类型向小数据类型转换，例如int转换为short,可能会导致丢失精度
+   eg:	int i = 10;
+	short s = (short)i;
+2、自动类型转换
+   由小数据类型向大数据类型转换，例如short转换为int
+   eg:	short s = 10;
+	int i = s;
+3、查看数据的二进制形式 Integer.toBinaryString()
+   eg:	System.out.println(Integer.toBinaryString(1024))
+4、负数在计算机中存储的都是补码
+5、数据类型转换需要注意的细节
+   1）凡是byte、short、char数据类型的数据在运算时，都会自动转换成int数据类型再进行运算
+   2）两个不同数据类型在运算时，结果取决于大的数据类型
